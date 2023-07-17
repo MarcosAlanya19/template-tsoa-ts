@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "paths": {
+      "@config/*": ["./config/*"],
+      "@server/*": ["./server/*"],
+      "@config/": ["./config/index.ts"],
+      "@services/*": ["./app/application/services/*"],
+      "@contracts/*": ["./app/application/contracts/*"],
+      "@utils/*": ["./app/infrastructure/shared/utils/*"],
+      "@helpers/*": ["./app/infrastructure/shared/helpers/*"],
+      "@configs/*": ["./app/infrastructure/shared/configs/*"],
+      "@controllers/*": ["./app/infrastructure/webApi/controllers/*"],
+      "@middlewares/*": ["./app/infrastructure/webApi/middlewares/*"],
+      "@externalApi/*": ["./app/infrastructure/externalApi/*"],
+      "@database/*": ["./app/infrastructure/database/*"],
+      "@dtos/*": ["./app/domain/dtos/*"],
+      "@entities/*": ["./app/domain/entities/*"]
+    }
+  }
+}
